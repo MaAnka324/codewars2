@@ -26,3 +26,31 @@ function sum (numbers) {
       }
   return sum
 };
+
+
+/////////////////////////////
+function arithmetic(a, b, operator){
+  //your code here!
+  switch (operator) {
+  case "add":
+    //Здесь выполняются инструкции, если результат выражения равен "add"
+      return a + b;
+    break;
+  case "subtract":
+    //Инструкции, соответствующие "subtract"
+      return a - b
+    break;
+  case "multiply":
+    //Инструкции, соответствующие значению "multiply"
+      return a * b
+    break;
+        case "divide":
+    //Инструкции, соответствующие значению "divide"
+      return a / b
+    break;
+  default:
+    //Здесь находятся инструкции, которые выполняются при отсутствии соответствующего значения
+    //statements_def
+    break;
+}
+}
