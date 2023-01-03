@@ -54,3 +54,10 @@ function arithmetic(a, b, operator){
     break;
 }
 }
+
+
+/////////////////////////
+// Write the "square"-function here
+function square (n){
+  return n*n
+}
