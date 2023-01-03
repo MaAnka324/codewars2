@@ -61,3 +61,31 @@ function arithmetic(a, b, operator){
 function square (n){
   return n*n
 }
+
+
+function basicOp(operation, value1, value2)
+{
+  //your code here!
+  switch (operation) {
+  case "+":
+    //Здесь выполняются инструкции, если результат выражения равен "add"
+      return value1 + value2;
+    break;
+  case "-":
+    //Инструкции, соответствующие "subtract"
+      return value1 - value2
+    break;
+  case "*":
+    //Инструкции, соответствующие значению "multiply"
+      return value1 * value2
+    break;
+        case "/":
+    //Инструкции, соответствующие значению "divide"
+      return value1 / value2
+    break;
+  default:
+    //Здесь находятся инструкции, которые выполняются при отсутствии соответствующего значения
+    //statements_def
+    break;
+}
+}
