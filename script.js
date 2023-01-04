@@ -89,3 +89,13 @@ function basicOp(operation, value1, value2)
     break;
 }
 }
+
+
+//////////////////////////////////////
+function problem(x){
+  //your code here
+   if (typeof x !== 'number') {
+   return result = 'Error' 
+   
+}
+return x*50+6}
