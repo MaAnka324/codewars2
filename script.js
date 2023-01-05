@@ -99,3 +99,10 @@ function problem(x){
    
 }
 return x*50+6}
+
+
+/////////////////////////////
+function addFive(num) {
+  var total = num + 5
+  return total
+}
